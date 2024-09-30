@@ -73,7 +73,8 @@ z-index: 1}
 }.Gallary-box{
 	margin: 15px 58px;
     background-image: url(P1.png);
-    background-size: cover;
+    background-size: contain;
+	filter
     background-position: center;
 	position: absolute;    
 	height: 450px;
@@ -81,12 +82,14 @@ z-index: 1}
 	height: 500px;
 	box-shadow: 2px 3px 8px black;
 	animation:Change 5s infinite;
+	filter: brightness(110%);
+	filter: contrast(105%);
+	filter: blur(0.8px);
 }@keyframes Change
-{
-	20%{background-image: url(P5.PNG);background-size:cover;}
-	50%{background-image: url(P2.jpg);background-size: contain;}
-	80%{background-image: url(P3.jpg);background-size: contain;}
-	100%{background-image: url(P4.jpg);background-size:contain;}
+{       20%{background-image: url(P2.jpg);background-size: contain;}
+	40%{background-image: url(P3.jpg);background-size: contain;}
+	60%{background-image: url(P4.jpg);background-size:contain;}
+        80%{background-image: url(P5.PNG);background-size:cover;}
 	
 
 }.Courses{
