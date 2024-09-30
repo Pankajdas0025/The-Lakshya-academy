@@ -72,19 +72,18 @@ z-index: 1}
 	width: 100%;
 }.Gallary-box{
 	margin: 15px 58px;
-    background-image: url(P1.png);
+    background-image: url(Main.png);
     background-size: contain;
-	filter
     background-position: center;
+	filter: brightness(120%);
+	filter: contrast(105%);
 	position: absolute;    
 	height: 450px;
 	width:90%;
 	height: 500px;
 	box-shadow: 2px 3px 8px black;
 	animation:Change 5s infinite;
-	filter: brightness(110%);
-	filter: contrast(105%);
-	filter: blur(0.8px);
+
 }@keyframes Change
 {       20%{background-image: url(P2.jpg);background-size: contain;}
 	40%{background-image: url(P3.jpg);background-size: contain;}
